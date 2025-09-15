@@ -2,27 +2,51 @@
 <html>
   <head> 
     <title>Rei's Music Website</title> 
+    <!-- Link to the stylesheet called style.css -->
+    <link rel="stylesheet" href="./css/style.css" />
   </head> 
   <body> 
-    <h1>Rei's Music Page</h1>
-    <p>This is the page all about the music and artists that I like!</p>
-    <h3>Stray Kinds</h3>
-    <img src = "img/skz_KARMA.webp" 
-         alt = 'an image of Stray Kids from the albam KARAMA'
-         width = "50%"
-    >
-    <p>My favorite songs</p>
-    <ol>
-      <li>Cover me</li>
-      <li>Silent Cry</li>
-      <li>I like it</li>
-    </ol>
-    <p>My favorite albam from them</p>
-    <ul>
-      <li>KARMA</li>
-      <li>HOP</li>
-      <li>LA</li>
-    </ul>
-    <h4>See my other favorite artists here</h4>
+    <header id="main_page_header">
+      <h1>Rei's Music Page</h1>
+      <p>This is the page all about the music and artists that I like!</p>
+    </header>
+    <main id = 'page1_content'>
+      <article id="straykids">
+        <h3>Stray Kinds</h3>
+        <p>Stray Kids is a male k-pop idol group</p>
+        <img src = "img/skz_KARMA.webp" 
+            alt = 'an image of Stray Kids from the albam KARAMA'
+            width = "50%"
+        >
+        <section id = 'songs'>
+          <p class="subheader">My favorite songs</p>
+          <ol>
+            <li>Cover me</li>
+            <li>Silent Cry</li>
+            <li>I like it</li>
+          </ol>
+        </section>
+        <section id = 'albums'>
+          <p class = "subheader">My favorite albam from them</p>
+          <ul>
+            <li>KARMA</li>
+            <li>HOP</li>
+            <li>LA</li>
+          </ul>
+        </section>
+        
+        <p class = 'button'>
+          Click <a href = 'https://straykids.jype.com/'>here</a> to learn more about Stray Kids
+        </p>
+      </article>
+      <nav id = 'footer'>
+        <h4>See my other favorite artists here</h4>
+        <ul>
+          <li><a href = "sebrina.html">Sebrina Carpenter</a></li>
+          <li><a href = "olivia.html">Olivia Rodrigo</a></li>
+        </ul>
+      </nav>
+      
+    </main>
   </body> 
 </html>
